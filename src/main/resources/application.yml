@@ -2,3 +2,6 @@ spring:
   profiles:
     active:
     - secrets
+server:
+  servlet:
+    context-path: /flight-reservation-api
